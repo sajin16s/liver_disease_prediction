@@ -1,4 +1,3 @@
--- Optional: run once in MySQL Workbench / mysql shell. The app also creates these automatically.
 CREATE DATABASE IF NOT EXISTS liver_db CHARACTER SET utf8mb4;
 USE liver_db;
 
@@ -30,7 +29,4 @@ CREATE TABLE IF NOT EXISTS predictions (
     INDEX idx_predicted_at (predicted_at)
 ) ENGINE=InnoDB;
 
--- Handy queries
--- SELECT * FROM patients;
--- SELECT p.patient_name, pr.probability, pr.risk_level, pr.predicted_at
---   FROM predictions pr JOIN patients p USING (patient_id) ORDER BY pr.predicted_at DESC;
+
