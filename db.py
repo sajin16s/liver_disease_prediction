@@ -1,17 +1,9 @@
-"""MySQL storage layer for the Liver Disease Prediction app.
-
-Connection settings are read (in order) from:
-  1. Streamlit secrets  (.streamlit/secrets.toml, section [mysql])
-  2. Environment variables MYSQL_HOST, MYSQL_PORT, MYSQL_USER, MYSQL_PASSWORD, MYSQL_DATABASE
-All queries are parameterised (no string formatting) to prevent SQL injection.
-"""
 import os
-
 import mysql.connector
 import pandas as pd
 from mysql.connector import Error
 
-DEFAULTS = {"host": "localhost", "port": 3306, "user": "root", "password": "", "database": "liver_db"}
+DEFAULTS = {"host": "localhost", "port": 3306, "user": "root", "password": "tiger", "database": "liver_db"}
 
 
 def get_config():

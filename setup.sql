@@ -1,4 +1,3 @@
--- Optional: run once in MySQL Workbench / mysql shell. The app also creates these automatically.
 CREATE DATABASE IF NOT EXISTS liver_db CHARACTER SET utf8mb4;
 USE liver_db;
 
