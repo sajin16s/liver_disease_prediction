@@ -1,4 +1,4 @@
-"""Train the Gradient Boost + AdaBoost ensemble and save model.joblib.  Run:  python train_model.py"""
+
 import joblib
 import numpy as np
 import pandas as pd
