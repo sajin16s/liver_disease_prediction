@@ -1,4 +1,3 @@
-"""Streamlit app with MySQL storage.  Run:  streamlit run app.py"""
 import joblib
 import pandas as pd
 import streamlit as st
